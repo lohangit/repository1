@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, user-scalable=0"/>
+    <title>Coffee Experience</title>
+    <link rel="stylesheet" href="starlight.css"/>
+    <script type="text/javascript">
+      document.addEventListener("DOMContentLoaded", function() {
+      window.onload = function (){
+          document.querySelector(".MenuMobile").addEventListener("click", function(){
+              if(document.querySelector(".menu nav ul").style.display == 'flex') {
+                  document.querySelector(".menu nav ul").style.display = 'none';
+              } else {
+                  document.querySelector(".menu nav ul").style.display = 'flex';
+              }
+          });
+      };    
+  });
+      </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+        <div class="logo">
+            <a href=""><img src="cofe1.png" /></a>
+        </div>
+        <div class="menu">
+            <nav>
+              <div class="MenuMobile">
+                <div class="mm_line"></div>
+                <div class="mm_line"></div>
+                <div class="mm_line"></div>
+              </div>
+                <ul>
+                    <li class="active"><a href="">HOME</a></li>
+                    <li><a href="">TOP 5</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                    <li><a href="">LOCATION</a></li>
+                    <li><a href="">MENU</a></li>
+                </ul>
+            </nav>
+        </div>
+        </div>
+    </header>
+    <section id="banner">
+        <div class="container column">
+            <div class="banner_headline">
+                <h1>Would you like a coffee?</h1>
+                <h2>Our coffee is planted and harvested in the southern states of Brazil, and has an unmistakable flavor and aroma!</h2>
+
+            </div>
+            <div class="banner_options">
+                <div class="banner1">
+                    <div class="banner_tittle">Where are we from?</div>
+                    <div class="banner_desc">We are the largest coffee farm in Porto Alegre, Rio Grande do Sul - Brazil. We are located in the Gaucho mountains, come visit us! 
+                    <br>
+                    <br>We are happy to welcome you to our factories and stores.</div>
+                    <a href="">Read more</a>
+                </div>
+                <div class="banner2">
+                    <div class="banner_tittle">Coffee experience</div>
+                    <div class="banner_desc">We are a pioneer in the coffee sector in Brazil. We have been in the market since 1786, we are a renowned brand and welcome in the daily lives of the Brazilian people. From 1949 onwards we entered the international market, where we stabilized and shipped to more than 25 countries!</div>
+                    <a href="">Read more</a>
+                </div>
+                <div class="banner3">
+                    <div class="banner_tittle">Opening Hours</div>
+                    <br><div class="banner_desc1"><span>Monday - Friday</span><span>8.00 - 17.00</span></div>
+                    <div class="banner_desc2"><span>Saturday</span><span>8.00 - 17.00</span></div>
+                    <div class="banner_desc3"><span>Sunday</span><span>8.00 - 17.00</span></div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    
+    <section id="geral">
+        <div class="container">
+            <section>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Latest News</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body flex">
+                        <article>
+                            <a href="">
+                            <div class="news_data">
+                                <div class="news_posted_at">01 JAN 12</div>
+                                <div class="news_comments">12</div>
+                            </div>
+                            <div class="news_thumb">
+                                <img src="kopi.jpg" />
+                                <div class="news_title">Kopi Luwak (Indonésia)</div>
+                                <div class="news_resume">Price: Can range from $100 to $600 per pound (0.45 kg).
+                                  Origin: Indonesia.
+                                  Uniqueness: Kopi Luwak coffee is produced from beans that have been eaten and excreted by civets (a mammal similar to cats). The animal’s digestive process alters the chemical composition of the beans, resulting in a smooth, less bitter taste.</div>
+                            </div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="">
+                            <div class="news_data">
+                                <div class="news_posted_at">01 JAN 12</div>
+                                <div class="news_comments">12</div>
+                            </div>
+                            <div class="news_thumb">
+                                <img src="rene-porter-J6g9Da8mGqU-unsplash.jpg" />
+                                <div class="news_title">Black Ivory (Tailândia)</div>
+                                <div class="news_resume">Price: Around $500 to $1,500 per pound.
+                                  Origin: Thailand.
+                                  Uniqueness: Similar to Kopi Luwak, Black Ivory is produced from beans that pass through the digestive system of elephants. After digestion, the beans are collected from the feces, and it is believed that the natural digestive process creates an extremely smooth coffee with notes of chocolate and spices.</div>
+                            </div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="">
+                            <div class="news_data">
+                                <div class="news_posted_at">01 JAN 12</div>
+                                <div class="news_comments">12</div>
+                            </div>
+                            <div class="news_thumb">
+                                <img src="hacienda.jpg" />
+                                <div class="news_title">Hacienda La Esmeralda (Panamá)</div>
+                                <div class="news_resume">Price: Can reach up to $350 per pound.
+                                  Origin: Panama.
+                                  Uniqueness: Famous for being cultivated on the slopes of Mount Baru, this Geisha variety coffee is highly valued for its complex aromatic profile, which includes floral and fruity notes. It frequently wins quality coffee competitions worldwide.</div>
+                            </div>
+                            </a>
+                        </article>
+
+                        <article>
+                            <a href="">
+                            <div class="news_data">
+                                <div class="news_posted_at">01 JAN 12</div>
+                                <div class="news_comments">12</div>
+                            </div>
+                            <div class="news_thumb">
+                                <img src="Ospina Dynasty Coffee.jpg" />
+                                <div class="news_title">Ospina Dynasty Coffee (Colômbia)</div>
+                                <div class="news_resume">Price: Between $150 and $700 per pound.
+                                  Origin: Colombia.
+                                  Uniqueness: Produced by one of the oldest coffee dynasties in the world, founded in the 19th century, this coffee is grown at high altitudes. It stands out for its smoothness, complexity of flavors, and velvety body, and it is hand-picked.</div>
+                            </div>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <aside>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Departments</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body_departments">
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Make An Appointment</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body_appointment">
+                        <div class="appointment_desc">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus
+                                culpa recusandae voluptate</p>
+                        </div>
+                        <div class="media_icons">
+                            <div class="phone"><i class="fa fa-phone"></i> by phone: <b>0-000-000-0000</b></div>
+                            <div class="email"><i class="fa fa-envelope"></i> by e-mail: <a
+                                    href="#">coffeeexperience@mail.com</a></div>
+                            <div class="contact"><i class="fa-regular fa-calendar"></i> or <a href="#">fill in the
+                                    form</a> on our contact page</div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+    <footer>
+        <div class="container flexColumn">
+            <div class="footer_menu">
+            <div class="fm_1">Health Insurance</div>
+            <div class="fm_2">Coffee List</div>
+            <div class="fm_3">Online Bill Pay</div>
+            </div>
+            <div class="footer_area">
+                <div class="footer_areaitem">
+                  <div class="widget">
+                    <div class="widget_title">
+                      <div class="widget_title_text">Coffee Contacts</div>
+                      <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body_health">
+                      <div class="widget_body_description">
+                        <p>Mauris adipiscing mauris fingilla turpis interdum sed pulvinar nisi malesuada individual.</p>
+                        <br>
+                      </div>
+        
+                      <div class="widget_body_box">
+                        <div class="widget_body_address">
+                          <p>Brazil Coffee</p>
+                          <p>33 Farlane Street</p>
+                          <p>Coffee Experience</p>
+                          <p>JAI 335, Brazil</p>
+                        </div>
+        
+                        <div class="widget_body_contact">
+                          <p>+123 655 655</p>
+                          <p>+123 755 755</p>
+                          <p style="color: #FAFAFA">coffeeexperience@mail.com</p>
+                        </div>
+        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="footer_areaitem">
+                  <div class="widget">
+                    <div class="widget_title">
+                      <div class="widget_title_text">Latest Posts</div>
+                      <div class="widget_title_bar"></div>
+                    </div>
+        
+                    <div class="widget_body_latest_posts">
+                      <a href="">
+                        <p>⇢</p>
+                        <p>Mauris adipiscing mauris fingilla turpis interdum: sed pulvinar nisi malesuada<br>
+                          <span>6 years ago</span>
+                        </p>
+                      </a>
+                      <a href="">
+                        <p>⇢</p>
+                        <p>Lorem Ipsum dolor sit amalt velum.<br>
+                          <span>6 years ago</span>
+                        </p>
+                      </a>
+                      <a href="">
+                        <p>⇢</p>
+                        <p>Mauris adipiscing mauris fingilla turpis interdum: sed pulvinar nisi malesuada.<br>
+                          <span>6 years ago</span>
+                        </p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="footer_areaitem">
+                  <div class="widget">
+                    <div class="widget_title">
+                      <div class="widget_title_text">Latest Tweets</div>
+                      <div class="widget_title_bar"></div>
+                    </div>
+        
+                    <div class="widget_body_latest_tweets">
+                      <a href="">
+                        <p>⇢</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et gravida nibh. Nulla facilisi. Integer non cursus eros, convallis hendrerit libero.<br>
+                          <span>4 days ago</span>
+                        </p>
+                      </a>
+                      <a href="">
+                        <p>⇢</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et gravida nibh. Nulla facilisi. Integer non cursus eros, convallis hendrerit libero.<br>
+                          <span>6 days ago</span>
+                        </p>
+                      </a>
+                      <a href="">
+                        <p>⇢</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et gravida nibh. Nulla facilisi. Integer non cursus eros, convallis hendrerit libero.<br>
+                          <span>7 days ago</span>
+                        </p>
+                      </a>
+                    </div>
+        
+                  </div>
+                </div>
+              </div>
+        
+              <div class="footer_copy">
+                ® Copyright - <span style="color: #FFFFFF">Coffee Template</span> by <span
+                  style="color: #FFFFFF">Brazil Coffee</span>
+              </div>
+    </footer>
+</body>
+</html>
